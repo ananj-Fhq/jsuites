@@ -149,3 +149,11 @@
         display: none;
     }
 }
+
+
+/* ADD THIS RULE TO THE END OF THE FILE */
+
+.jcontextmenu.jsubmenu-left .jcontexthassubmenu > .jcontextmenu {
+  left: auto;
+  right: 100%;
+}
