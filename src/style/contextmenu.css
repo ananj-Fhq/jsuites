@@ -157,3 +157,8 @@
   left: auto;
   right: 100%;
 }
+
+.jcontextmenu.jsubmenu-top .jcontexthassubmenu > .jcontextmenu {
+  top: auto;
+  bottom: 100%;
+}

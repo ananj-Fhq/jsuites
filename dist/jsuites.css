@@ -1134,6 +1134,11 @@ div[data-before]:before {
   right: 100%;
 }
 
+.jcontextmenu.jsubmenu-top .jcontexthassubmenu > .jcontextmenu {
+  top: auto;
+  bottom: 100%;
+}
+
 .jdropdown {
     cursor:pointer;
     -webkit-touch-callout: none;

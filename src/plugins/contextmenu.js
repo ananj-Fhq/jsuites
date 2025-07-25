@@ -98,6 +98,11 @@ function Contextmenu() {
                     el.classList.remove('jsubmenu-left');
                 }
 
+                if (rectAfterPositioning.top + rectAfterPositioning.height + 300 > window.innerHeight) {
+                    el.classList.add('jsubmenu-top');
+                } else {
+                    el.classList.remove('jsubmenu-top');
+                }
 
             }
         }
