@@ -90,15 +90,15 @@ function Contextmenu() {
 
 
                 // Check if the menu is too close to the right edge for a submenu to open
-                // We use 180 as an estimated average width for a submenu
+                //250px is being used as average width of submenu
                 var rectAfterPositioning = el.getBoundingClientRect();
-                if (rectAfterPositioning.left + rectAfterPositioning.width + 180 > window.innerWidth) {
+                if (rectAfterPositioning.left + rectAfterPositioning.width + 250 > window.innerWidth) {
                     el.classList.add('jsubmenu-left');
                 } else {
                     el.classList.remove('jsubmenu-left');
                 }
 
-                
+
             }
         }
 
