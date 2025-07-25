@@ -1136,7 +1136,7 @@ div[data-before]:before {
 
 .jcontextmenu.jsubmenu-top .jcontexthassubmenu > .jcontextmenu {
   top: auto;
-  bottom: 100%;
+  bottom: 0;
 }
 
 .jdropdown {

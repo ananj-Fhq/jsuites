@@ -160,5 +160,5 @@
 
 .jcontextmenu.jsubmenu-top .jcontexthassubmenu > .jcontextmenu {
   top: auto;
-  bottom: 100%;
+  bottom: 0;
 }
